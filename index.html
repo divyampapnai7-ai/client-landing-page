@@ -3,99 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apex Dental Clinic - Your Trusted Partner for a Brighter Smile</title>
-    <meta name="description" content="Apex Dental Clinic offers comprehensive family dental care, advanced cosmetic dentistry, and patient-centric comfort. From general checkups to dental implants and Invisalign, we're your partner for a healthy, beautiful smile.">
+    <title>Apex Dental Clinic - Transform Your Smile</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            color: #333;
-        }
-        h1, h2, h3 {
-            font-family: 'Playfair Display', serif;
-            color: #1a5e63; /* Darker teal for headings */
-        }
-        .btn-primary {
-            background-color: #38b2ac; /* Light teal */
-            color: white;
-            padding: 12px 28px;
-            border-radius: 9999px;
-            font-weight: 600;
-            transition: background-color 0.3s ease;
-        }
-        .btn-primary:hover {
-            background-color: #2c8c87; /* Darker teal on hover */
-        }
-        .section-bg-light {
-            background-color: #f7fafc; /* Light gray */
-        }
-        .icon-circle {
-            background-color: #e0f2f7; /* Very light blue/teal */
-            color: #38b2ac;
-        }
-    </style>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2306B6D4' d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h2v-6h-2v6zm0-8h2V7h-2v2z'%3E%3C/path%3E%3C/svg%3E" type="image/svg+xml">
 </head>
-<body class="leading-relaxed">
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
 
-    <!-- Header/Hero Section -->
-    <header class="bg-gradient-to-r from-teal-500 to-teal-700 text-white py-20 px-4 md:px-8">
-        <div class="max-w-6xl mx-auto text-center">
-            <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Apex Dental Clinic: Your Smile, Our Priority</h1>
-            <p class="text-xl md:text-2xl mb-8 opacity-90">Experience exceptional, comfortable dental care for your whole family.</p>
-            <a href="#contact" class="btn-primary inline-block text-lg shadow-lg hover:shadow-xl">Schedule Your Appointment Today</a>
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-700 py-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div class="flex items-center">
+                <svg class="w-10 h-10 text-white mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.276a11.955 11.955 0 01-1.292 2.812A8.006 8.006 0 0012 4c-1.552 0-3.04.406-4.322 1.134a11.955 11.955 0 01-1.292-2.812A11.955 11.955 0 003 12c0 2.893 1.146 5.518 3 7.424M15 12a3 3 0 11-6 0 3 3 0 016 0zm6-3a2 2 0 100-4 2 2 0 000 4z"></path>
+                </svg>
+                <h1 class="text-3xl font-bold text-white">Apex Dental Clinic</h1>
+            </div>
+            <nav class="hidden md:block">
+                <a href="#services" class="text-white hover:text-blue-200 px-4 py-2 rounded transition duration-300">Services</a>
+                <a href="#about" class="text-white hover:text-blue-200 px-4 py-2 rounded transition duration-300">About Us</a>
+                <a href="#contact" class="text-white hover:text-blue-200 px-4 py-2 rounded transition duration-300">Contact</a>
+                <a href="#book" class="ml-4 bg-white text-blue-700 font-semibold py-2 px-5 rounded-full shadow-md hover:bg-blue-100 transition duration-300">Book Appointment</a>
+            </nav>
+            <button class="md:hidden text-white focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
         </div>
     </header>
 
-    <!-- Services Overview Section -->
-    <section class="py-16 px-4 md:px-8 section-bg-light">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-3xl md:text-4xl text-center font-bold mb-12">Comprehensive Dental Solutions for Every Smile</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+    <!-- Hero Section - Comprehensive & Advanced Cosmetic Dentistry -->
+    <section class="relative bg-cover bg-center h-screen flex items-center" style="background-image: url('https://source.unsplash.com/1600x900/?cosmetic-dentistry,smile-makeover');">
+        <div class="absolute inset-0 bg-black opacity-60"></div>
+        <div class="container mx-auto relative z-10 text-center px-4">
+            <h2 class="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+                Transform Your Smile <br class="hidden md:inline"> with Apex Dental's Advanced Cosmetic Solutions
+            </h2>
+            <p class="text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto">
+                From Whitening to Veneers and Complete Smile Makeovers, Achieve the Confident, Radiant Smile You Deserve with Our Expert Team and Cutting-Edge Technology.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+                <a href="#cosmetic-services" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full text-lg transition duration-300 shadow-lg transform hover:scale-105">
+                    Explore Cosmetic Services
+                </a>
+                <a href="#book" class="bg-white hover:bg-gray-200 text-blue-700 font-bold py-4 px-8 rounded-full text-lg transition duration-300 shadow-lg transform hover:scale-105">
+                    Schedule a Consultation
+                </a>
+            </div>
+            <p class="mt-8 text-gray-300 text-sm">
+                Keywords: cosmetic dentistry, smile makeover, dental veneers, teeth whitening, porcelain veneers, best cosmetic dentist near me, how much do dental veneers cost
+            </p>
+        </div>
+    </section>
 
-                <!-- Service Card 1: Family Dental Care -->
-                <div class="bg-white rounded-lg shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
-                    <div class="icon-circle w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6 text-3xl">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h2a2 2 0 002-2V7a2 2 0 00-2-2h-2V3a1 1 0 00-2 0v2H7V3a1 1 0 00-2 0v2H3a2 2 0 00-2 2v11a2 2 0 002 2h2v-3a1 1 0 011-1h6a1 1 0 011 1v3h2z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-semibold text-center mb-4">Family Dental Care</h3>
-                    <p class="text-gray-700 text-center mb-6">Your trusted partner for all ages, from gentle pediatric care to comprehensive general dentistry for adults.</p>
-                    <ul class="list-disc list-inside text-gray-600 space-y-2">
-                        <li>General Checkups & Cleanings</li>
-                        <li>Pediatric Dentistry</li>
-                        <li>Emergency Dental Services</li>
-                        <li>Preventative Care</li>
+    <!-- Feature Section 1 - Patient-Centric & Anxiety-Free Dental Experience -->
+    <section class="py-20 bg-gray-100" id="experience">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-4xl font-extrabold text-blue-700 mb-6">
+                        Experience Dentistry Without Fear at Apex Dental
+                    </h3>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                        Dental anxiety shouldn't keep you from a healthy smile. Our compassionate team, state-of-the-art sedation options, and genuinely relaxing environment ensure a comfortable, stress-free visit every time. Reclaim your oral health with confidence and discover a new standard of care.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600 text-lg space-y-2 mb-8">
+                        <li>Sedation Dentistry Options (Nitrous Oxide, Oral Conscious Sedation)</li>
+                        <li>Gentle and Empathetic Care</li>
+                        <li>Relaxing Clinic Ambiance</li>
+                        <li>Clear Communication & Patient Education</li>
                     </ul>
+                    <a href="#contact" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-7 rounded-full text-lg transition duration-300 shadow-md">
+                        Learn About Our Comfort Options
+                    </a>
                 </div>
-
-                <!-- Service Card 2: Cosmetic & Restorative Dentistry -->
-                <div class="bg-white rounded-lg shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
-                    <div class="icon-circle w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6 text-3xl">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 1.343 3 3s-1.343 3-3 3 3-1.343 3-3 1.343-3-3-3z"></path>
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-semibold text-center mb-4">Cosmetic & Restorative</h3>
-                    <p class="text-gray-700 text-center mb-6">Crafting beautiful, healthy smiles with advanced techniques and personalized treatment plans.</p>
-                    <ul class="list-disc list-inside text-gray-600 space-y-2">
-                        <li>Dental Implants & Veneers</li>
-                        <li>Invisalign Clear Aligners</li>
-                        <li>Professional Teeth Whitening</li>
-                        <li>Crowns & Bridges</li>
-                    </ul>
-                </div>
-
-                <!-- Service Card 3: Patient-Centric Comfort -->
-                <div class="bg-white rounded-lg shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
-                    <div class="icon-circle w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6 text-3xl">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-2xl font-semibold text-center mb-4">Patient-Centric Comfort</h3>
-                    <p class="text-gray-700 text-center mb-6">We prioritize your peace of mind with a relaxing environment and advanced pain management options.</p>
+                <div class="order-1 md:order-2">
+                    <img src="https://source.unsplash.com/600x400/?dentist-anxiety,relaxing-dentist" alt="Relaxing dental environment with patient" class="rounded
