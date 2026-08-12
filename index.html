@@ -3,98 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apex Dental Clinic - Transform Your Smile with Expert Care</title>
-    <meta name="description" content="Experience dentistry differently at Apex Dental Clinic. We offer comprehensive cosmetic dentistry, pain-free treatments, and advanced dental implants in [City] for a healthy, beautiful smile.">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Apex Dental Clinic - Your Trusted Partner for a Brighter Smile</title>
+    <meta name="description" content="Apex Dental Clinic offers comprehensive family dental care, advanced cosmetic dentistry, and patient-centric comfort. From general checkups to dental implants and Invisalign, we're your partner for a healthy, beautiful smile.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Poppins', sans-serif;
+            color: #333;
         }
         h1, h2, h3 {
             font-family: 'Playfair Display', serif;
+            color: #1a5e63; /* Darker teal for headings */
+        }
+        .btn-primary {
+            background-color: #38b2ac; /* Light teal */
+            color: white;
+            padding: 12px 28px;
+            border-radius: 9999px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #2c8c87; /* Darker teal on hover */
+        }
+        .section-bg-light {
+            background-color: #f7fafc; /* Light gray */
+        }
+        .icon-circle {
+            background-color: #e0f2f7; /* Very light blue/teal */
+            color: #38b2ac;
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="leading-relaxed">
 
-    <!-- Header -->
-    <header class="bg-white shadow-sm sticky top-0 z-50">
-        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <a href="#" class="flex items-center space-x-2">
-                <img src="https://placehold.co/40x40/667EEA/FFFFFF/png?text=AD" alt="Apex Dental Logo" class="h-10 w-10">
-                <span class="text-2xl font-bold text-blue-600">Apex Dental</span>
-            </a>
-            <div class="hidden md:flex space-x-6">
-                <a href="#services" class="text-gray-600 hover:text-blue-600 font-medium">Services</a>
-                <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium">About Us</a>
-                <a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium">Contact</a>
-            </div>
-            <a href="#appointment" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full font-semibold transition duration-300 ease-in-out">Book Appointment</a>
-        </nav>
+    <!-- Header/Hero Section -->
+    <header class="bg-gradient-to-r from-teal-500 to-teal-700 text-white py-20 px-4 md:px-8">
+        <div class="max-w-6xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 leading-tight">Apex Dental Clinic: Your Smile, Our Priority</h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90">Experience exceptional, comfortable dental care for your whole family.</p>
+            <a href="#contact" class="btn-primary inline-block text-lg shadow-lg hover:shadow-xl">Schedule Your Appointment Today</a>
+        </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 overflow-hidden">
-        <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1563297007-0635e98547a1?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Modern dental clinic interior" class="w-full h-full object-cover opacity-30">
-        </div>
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6 animate-fade-in-up">
-                Transform Your Smile, Transform Your Confidence
-            </h1>
-            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-fade-in-up delay-200">
-                Experience advanced cosmetic dentistry, pain-free treatments, and lasting implant solutions at Apex Dental Clinic in <span class="font-semibold">[Your City]</span>.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 animate-fade-in-up delay-400">
-                <a href="#appointment" class="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-full text-lg font-bold shadow-lg transition duration-300 ease-in-out">Book Your Consultation</a>
-                <a href="#services" class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-8 py-3 rounded-full text-lg font-bold shadow-lg transition duration-300 ease-in-out">Explore Our Services</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Key Selling Points / Value Propositions Section -->
-    <section id="services" class="py-16 md:py-24 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Your Health, Our Priority</h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Discover why patients choose Apex Dental Clinic for their smile transformation and oral health needs.</p>
-            </div>
-
+    <!-- Services Overview Section -->
+    <section class="py-16 px-4 md:px-8 section-bg-light">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl text-center font-bold mb-12">Comprehensive Dental Solutions for Every Smile</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-                <!-- Selling Point 1: Comprehensive Cosmetic Dentistry -->
-                <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1">
-                    <div class="text-blue-600 text-5xl mb-6 flex justify-center">✨</div> <!-- Icon for Cosmetic -->
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Comprehensive Cosmetic & Esthetic Dentistry</h3>
-                    <p class="text-gray-700 leading-relaxed text-center">
-                        From subtle enhancements to complete smile makeovers, we offer a full spectrum of advanced cosmetic treatments. Achieve your ideal, natural-looking smile with our expert team.
-                    </p>
-                    <ul class="mt-6 text-gray-600 space-y-2 list-disc list-inside text-sm">
-                        <li>Veneers & Lumineers</li>
-                        <li>Professional Teeth Whitening</li>
-                        <li>Dental Bonding & Contouring</li>
-                        <li>Gum Contouring</li>
-                        <li>Smile Makeovers</li>
-                    </ul>
-                    <div class="mt-8 text-center">
-                        <a href="#" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-semibold transition duration-300">Learn More</a>
+
+                <!-- Service Card 1: Family Dental Care -->
+                <div class="bg-white rounded-lg shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
+                    <div class="icon-circle w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6 text-3xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h2a2 2 0 002-2V7a2 2 0 00-2-2h-2V3a1 1 0 00-2 0v2H7V3a1 1 0 00-2 0v2H3a2 2 0 00-2 2v11a2 2 0 002 2h2v-3a1 1 0 011-1h6a1 1 0 011 1v3h2z"></path>
+                        </svg>
                     </div>
+                    <h3 class="text-2xl font-semibold text-center mb-4">Family Dental Care</h3>
+                    <p class="text-gray-700 text-center mb-6">Your trusted partner for all ages, from gentle pediatric care to comprehensive general dentistry for adults.</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>General Checkups & Cleanings</li>
+                        <li>Pediatric Dentistry</li>
+                        <li>Emergency Dental Services</li>
+                        <li>Preventative Care</li>
+                    </ul>
                 </div>
 
-                <!-- Selling Point 2: Pain-Free & Anxiety-Reducing Experience -->
-                <div class="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out transform hover:-translate-y-1">
-                    <div class="text-green-600 text-5xl mb-6 flex justify-center">😌</div> <!-- Icon for Comfort -->
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4 text-center">Pain-Free & Anxiety-Reducing Patient Experience</h3>
-                    <p class="text-gray-700 leading-relaxed text-center">
-                        Your comfort is our priority. We combine state-of-the-art pain management with compassionate care to ensure a relaxed, stress-free dental visit, even for anxious patients.
-                    </p>
-                    <ul class="mt-6 text-gray-600 space-y-2 list-disc list-inside text-sm">
-                        <li>Sedation Dentistry Options</li>
-                        <li>Gentle Injection Techniques</li>
-                        <li>Noise-Cancelling Headphones</li>
-                        <li>Comfortable Waiting Area</li>
-                        <li>Friendly & Understanding Team</li>
+                <!-- Service Card 2: Cosmetic & Restorative Dentistry -->
+                <div class="bg-white rounded-lg shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
+                    <div class="icon-circle w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6 text-3xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c1.657 0 3 1.343 3 3s-1.343 3-3 3 3-1.343 3-3 1.343-3-3-3z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-center mb-4">Cosmetic & Restorative</h3>
+                    <p class="text-gray-700 text-center mb-6">Crafting beautiful, healthy smiles with advanced techniques and personalized treatment plans.</p>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Dental Implants & Veneers</li>
+                        <li>Invisalign Clear Aligners</li>
+                        <li>Professional Teeth Whitening</li>
+                        <li>Crowns & Bridges</li>
                     </ul>
-                    <div class="
+                </div>
+
+                <!-- Service Card 3: Patient-Centric Comfort -->
+                <div class="bg-white rounded-lg shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
+                    <div class="icon-circle w-16 h-16 flex items-center justify-center rounded-full mx-auto mb-6 text-3xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-center mb-4">Patient-Centric Comfort</h3>
+                    <p class="text-gray-700 text-center mb-6">We prioritize your peace of mind with a relaxing environment and advanced pain management options.</p>
